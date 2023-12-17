@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(75, 75, 75);
+    margin: 32px;
+}
+
+#bockerspree {
+    aspect-ratio: 1/1;
+    height: 80vh;
+    position: relative;
+}
+
+#axe {
+    aspect-ratio: 1/2;
+    height: 50vh;
+    position: fixed;
+    left: 60vh;
+    top: 23vh;
+
+    transition: transform 0.3s ease-in;
+    transform-origin: 20% 80%;
+}
