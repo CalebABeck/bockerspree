@@ -1,5 +1,7 @@
 const axeImg = document.getElementById("axe");
 const bockerspreeImg = document.getElementById("bockerspree");
+const staleyImg = document.getElementById("staley");
+const staleyEyes = document.getElementById("eyes");
 
 const screamSound = new Audio("./Wilhelm_Scream.ogg");
 const mcHit = new Audio("mcHit.mp3");

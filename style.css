@@ -4,23 +4,45 @@ html, body {
 }
 
 body {
-    background-color: rgb(75, 75, 75);
-    margin: 32px;
+    background-color: rgb(46, 46, 46);
+    margin: 2vw;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 #bockerspree {
     aspect-ratio: 1/1;
-    height: 80vh;
+    width: 45vw;
     position: relative;
 }
 
 #axe {
     aspect-ratio: 1/2;
-    height: 50vh;
-    position: fixed;
-    left: 60vh;
-    top: 23vh;
+    width: 15vw;
+    position: absolute;
+    left: 32vw;
+    top: 10vw;
+    z-index: 2;
 
     transition: transform 0.3s ease-in;
     transform-origin: 20% 80%;
+}
+
+#staley {
+    aspect-ratio: 1/1;
+    width: 45vw;
+    position: relative;
+}
+
+#eyes {
+    color: darkred;
+    font-size: 2vw;
+    font-family: Arial;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
 }
