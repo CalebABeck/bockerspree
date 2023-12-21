@@ -15,6 +15,8 @@ const firstAxeSwing = () => {
     () => {
       screamSound.play();
       axeImg.style.transform = 'rotate(0deg)';
+      staleyImg.style.transform = 'rotate(90deg)';
+      staleyEyes.style.visibility = 'visible';
     },
     300);
 

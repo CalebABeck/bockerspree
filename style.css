@@ -24,8 +24,8 @@ body {
     aspect-ratio: 1/2;
     width: 15vw;
     position: absolute;
-    left: 32vw;
-    top: 10vw;
+    left: 42vw;
+    top: 4vw;
     z-index: 2;
 
     transition: transform 0.3s ease-in;
@@ -39,10 +39,13 @@ body {
 }
 
 #eyes {
-    color: darkred;
-    font-size: 2vw;
+    /* color: darkred; */
+    font-size: 5vw;
     font-family: Arial;
     position: absolute;
     z-index: 1;
+    transform: rotate(90deg);
+    top: 19vw;
+    right: 4.5vw;
     visibility: hidden;
 }
