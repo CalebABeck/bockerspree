@@ -3,7 +3,7 @@ const bockerspreeImg = document.getElementById("bockerspree");
 const staleyImg = document.getElementById("staley");
 const staleyEyes = document.getElementById("eyes");
 
-const screamSound = new Audio("./Wilhelm_Scream.ogg");
+const screamSound = new Audio("./Wilhelm_Scream.mp3");
 const mcHit = new Audio("mcHit.mp3");
 
 let hasAxeSwung = false;
